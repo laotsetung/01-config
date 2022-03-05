@@ -1,0 +1,1 @@
+config basica do fluxbox
