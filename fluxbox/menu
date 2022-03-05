@@ -1,0 +1,30 @@
+[begin] (lao's-fluxbox)
+[exec] (terminator) {terminator}
+[exec] (WP's) {fbsetbg -r /home/nada/.fluxbox/backgrounds/ &}
+[submenu] (TI) {}
+    [exec] (Androi Studio) {android-studio &} <>
+[end]
+[submenu] (WEB) {}
+    [exec] (Firefox) {firefox &}
+    [exec] (IRC) {quassel &}
+    [exec] (Transmission) {transmission-gtk &}
+    [exec] (Soulseek) {soulseek &}
+[end]
+[submenu] (Manage) {}
+    [exec] (Monitor) {gnome-system-monitor &}
+    [exec] (Ubuntu Software) {sudo snap-store &}
+[end]
+[submenu] (GAMES) {}
+    [exec] (0 AD) {0ad &}
+[end]
+[nop] (-----outros-----)
+[exec] (Nautilus) {nautilus}
+[exec] (Sublime) {subl &}
+[exec] (Stremio) {stremio &}
+[exec] (Office) {libreoffice &}
+[nop] (---------------)
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[nop] (---------------)
+[exec] (reboot) {reboot}
+[exec] (shutdown) {shutdown now}
+[end]
