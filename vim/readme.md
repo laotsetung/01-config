@@ -1,1 +1,1 @@
-BASIC VIM SETUP WITH BUNDLE
+Config basic do VIM, com Plugins do BUNDLE
